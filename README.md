@@ -51,7 +51,7 @@ in the changeownership function of TOKEN CONTRACT, specify the chef address and 
 
 # LP Pairs for ZOM.Health
 
-ETH-ZOM - after uniswap listing the address will be available.
+ETH-ZOM - 0x05f61bd9292ff93c24a47b731db11bf1143977a3 (Uniswap mainnet address)
 
 UNI-ETH - 0xd3d2e2692501a5c9ca623199d38826e513033a17 (Uniswap mainnet address)
 
