@@ -15,7 +15,7 @@ Clone Stake contract of SushiSwap MasterChef Stake Contract
 
 - Stake contract name: ZOM_Obsidian
 - Reward per block: 2.5 ZOMs
-- Reward Duration 1 month ~ 20k blocks
+- Reward Duration 1 month ~ 200k blocks
 - Bonus multiplier: 5 (i.e initial bonus blocks will distribute 12.5 ZOM per block)
 - reward distribution: 85% to the liquidity stakers & 15% to team / dev address.
 - Burn Transfer: 
@@ -23,13 +23,13 @@ Clone Stake contract of SushiSwap MasterChef Stake Contract
 
 # Constructor argument during deployment of ZOMCHEF contract:
 
-< zomtoken address >,< dev address >,< 2.5 token with 18 zeros i.e 25 and 17 zeros after it >, < start block >, < bonus end block i.e plus 20k start block >
+< zomtoken address >,< dev address >,< 2.5 token with 18 zeros i.e 25 and 17 zeros after it >, < start block >, < bonus end block i.e plus 200k start block >
 
-Note: 10k is for 2 weeks , so if you want 1 month then have to add 20k blocks
+Note: 100k is for 2 weeks , so if you want 1 month then have to add 200k blocks
       
-      check latest block and add 20k to it to be used in contructor arguments
+      check latest block and add 200k to it to be used in contructor arguments
 
-example: "0xFE07E0B64Abe9b4F2AAc8A55b54ccCf08Bf89C6B","0x5A462DA24E01C8edEddD156c35F62318f73b71e6","2500000000000000000","21175773","21195773"
+example: "0xFE07E0B64Abe9b4F2AAc8A55b54ccCf08Bf89C6B","0x5A462DA24E01C8edEddD156c35F62318f73b71e6","2500000000000000000","21175773","21375773"
 
 # Adding a pool:
 
